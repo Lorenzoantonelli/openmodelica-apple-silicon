@@ -4,6 +4,7 @@ This script helps you to install OpenModelica nightly on Apple Silicon powered M
 
 ## Requirements
 > **Warning**
+> 
 > Make sure to disable ***Set up this disk as an LVM group*** during the installation of Ubuntu, otherwise you will get an error during the installation of OpenModelica.
 
 - An Apple Silicon powered device
