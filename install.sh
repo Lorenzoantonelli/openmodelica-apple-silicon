@@ -15,6 +15,11 @@ mkdir ~/tmp_modelica
     echo "Installing OpenModelica..."
     sudo dpkg -i ./*.deb
 )
+
+mkdir "Build"
+cp ~/tmp_modelica/*.deb "Build/"
+echo "Deb files are stored in the Build directory."
+
 read -p "OpenModelica installed! Do you want to remove the temporary directory? [y/n] " -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]
@@ -22,4 +27,5 @@ then
     echo "Removing temporary directory..."
     rm -rf ~/tmp_modelica
 fi
+
 exit 0
