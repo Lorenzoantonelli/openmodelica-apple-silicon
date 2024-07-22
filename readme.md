@@ -3,7 +3,7 @@
 This script helps you to install OpenModelica nightly on Apple Silicon powered Macs, iMacs and MacBooks. This scripts builds OpenModelica from source automatically and installs it.
 
 ## Requirements
-> **Warning**
+> [!WARNING]
 > 
 > Make sure to disable ***Set up this disk as an LVM group*** during the installation of Ubuntu, otherwise you will get an error during the installation of OpenModelica.
 
